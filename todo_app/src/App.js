@@ -1,15 +1,14 @@
-import './App.css';
+import React from 'react';
 import { TodoCounter } from './Componets/TodoCounter';
 import { TodoSearch } from './Componets/TodoSearch';
 import { TodoList } from './Componets/TodoList';
 import { TodoItem } from './Componets/TodoItem';
 import { CreateTodoButton } from './Componets/CreateTodoButton';
-import React from 'react';
 
 const defaultTodos = [
   { text : 'Cortar Cebolla', completed: false},
   { text : 'Curson Introducción React.js', completed: false},
-  { text : 'Llorar con la Llorona', completed: false},
+  { text : 'Llorar con la Llorona', completed: true},
   { text : 'Descansar en cama', completed: false},
   { text : 'Relizar Tarea de Platzi', completed: false},
 ];
